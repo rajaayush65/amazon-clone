@@ -19,6 +19,8 @@ stripe listen --forward-to http://localhost:3000/api/webhook  -> paste the signi
 
 Change the HOST and NEXTAUTH_URL accordingly
 
+Get a permissions.json file from firebase->service account, paste it in the root folder with same name.
+
 Run npm run dev
 
 
